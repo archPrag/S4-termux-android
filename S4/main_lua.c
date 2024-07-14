@@ -28,9 +28,9 @@
 #include <stdarg.h>
 #include <math.h>
 #include <stdlib.h>
-#include <lua.h>
-#include <lauxlib.h>
-#include <lualib.h>
+#include <lua5.2/lua.h>
+#include <lua5.2/lauxlib.h>
+#include <lua5.2/lualib.h>
 #include "S4.h"
 #include "SpectrumSampler.h"
 #include "cubature.h"

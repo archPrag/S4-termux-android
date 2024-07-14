@@ -8,3 +8,15 @@ See the S4 manual, in doc/index.html, for a complete
 description of the package and its user interface, as well as
 installation instructions, the license and copyright, contact
 addresses, and other important information.
+
+------------ 
+
+For building,install termux in the playstore and install the dependencies with:
+
+pkg upgrade
+pkg update
+pkg install git make clang binutils liblua52
+
+clone the repository with
+
+git clone rep
