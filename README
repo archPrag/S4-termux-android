@@ -15,7 +15,7 @@ For building,install termux in the playstore and install the dependencies with:
 
 pkg upgrade
 pkg update
-pkg install git make clang binutils liblua52
+pkg install git make clang binutils liblua52 blas-openblas
 
 clone the repository with
 
