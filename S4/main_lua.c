@@ -2190,10 +2190,8 @@ static int S4L_Simulation_GetAmplitudes(lua_State *L){
 	layer_name = luaL_checklstring(L, 2, NULL);
 	layer = S4_Simulation_GetLayerByName(S, layer_name);
   for(int i=0;i<90;i++){
-    printf("%s",S->layer->name);
     if(S->layer[i].copy==layer){
       tLayer=S->layer[i];
-      printf("%s",S->layer->name);
       break;
     }
   }

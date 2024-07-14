@@ -17,6 +17,9 @@ pkg upgrade
 pkg update
 pkg install git make clang binutils liblua52 blas-openblas fftw suitesparse
 
-clone the repository with
+clone the repository with git:
 
 git clone rep
+
+make the repository you may need to edit some flags in Makefile.Android
+
