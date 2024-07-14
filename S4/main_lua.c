@@ -2154,6 +2154,8 @@ static int S4L_Simulation_GetPoyntingFluxByOrder(lua_State *L){
 	}
 
 	power = (double*)malloc(sizeof(double)*4*n);
+      printf("%s",S->layer->name);
+      printf("%s",S->layer->name);
 	Simulation_GetPoyntingFluxByG(S,
 		&S->layer[layer],
 		luaL_checknumber(L, 3),
@@ -2188,8 +2190,10 @@ static int S4L_Simulation_GetAmplitudes(lua_State *L){
 	layer_name = luaL_checklstring(L, 2, NULL);
 	layer = S4_Simulation_GetLayerByName(S, layer_name);
   for(int i=0;i<90;i++){
+    printf("%s",S->layer->name);
     if(S->layer[i].copy==layer){
       tLayer=S->layer[i];
+      printf("%s",S->layer->name);
       break;
     }
   }
