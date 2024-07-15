@@ -19,7 +19,9 @@ pkg install git make clang binutils liblua52 blas-openblas fftw suitesparse
 
 clone the repository with git:
 
-git clone rep
+git clone https://github.com/archPrag/S4
 
-make the repository you may need to edit some flags in Makefile.Android
+make the repository 
+
+you may need to edit some flags in Makefile.Android
 
