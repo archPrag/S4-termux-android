@@ -10,6 +10,7 @@ installation instructions, the license and copyright, contact
 addresses, and other important information.
 
 ------------ 
+This distribution is focussed in android and uses the lua api
 
 For building,install termux in the playstore and install the dependencies with:
 
@@ -20,8 +21,18 @@ pkg install git make clang binutils liblua52 blas-openblas fftw suitesparse
 clone the repository with git:
 
 git clone https://github.com/archPrag/S4
+cd S4
 
 make the repository 
 
-you may need to edit some flags in Makefile.Android
+make
 
+add the binary to your $Path 
+
+cp build/S4 /data/data/com.termux/files/usr/bin
+
+you may need to edit some flags in Makefile.Android to make it work
+
+To execute a .lua with S4 use:
+
+S4 example.lua
