@@ -20,7 +20,7 @@ pkg install git make clang binutils liblua52 blas-openblas fftw suitesparse
 
 clone the repository with git:
 
-git clone https://github.com/archPrag/S4
+git clone https://github.com/archPrag/S4-termux-android
 cd S4
 
 make the repository 
